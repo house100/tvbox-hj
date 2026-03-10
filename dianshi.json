@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;b171798b70eeb90b520b1ca35483b364",
+  "spider": "./jar/spider.jar;md5;c4f899fee78d74a14549252b31118fbc",
   "lives": [
     {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
   ],
@@ -29,6 +29,7 @@
     {"key": "橘子","name": "橘子｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://juziapp-1319209748.cos.ap-chengdu.myqcloud.com/juzi.txt","dataKey": "jasaFBcdV3zrUDf2","dataIv": "jasaFBcdV3zrUDf2","version": "305","init": "initV122","ua": "okhttp/3.10.0"}},
     {"key": "优兔","name": "优兔｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt","dataKey": "UrWKPnmQWJA8AQzd","dataIv": "UrWKPnmQWJA8AQzd","ua": "okhttp/3.10.0"}},
     {"key": "蓝鹰","name": "蓝鹰｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt","dataKey": "ca94b06ca359d80e","dataIv": "ca94b06ca359d80e","init": "initV120","ua": "okhttp/3.10.0"}},
+    {"key": "茉莉","name": "茉莉｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"site": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt","dataKey": "88689667dce61725","dataIv": "88689667dce61725"}},
     {"key": "段友","name": "段友｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"url": "https://shangjihuoke.com","dataKey": "8E2DC386FD452D05","dataIv": "8E2DC386FD452D05"}},
     {"key": "黑猫","name": "黑猫｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"url": "http://app1-0-0.87333.cc","dataKey": "VwsHxkCViDXEExWa","dataIv": "VwsHxkCViDXEExWa"}},
     {"key": "灵虎","name": "灵虎｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"site": "https://bind.315999.xyz/89.txt","dataKey": "#getapp@TMD@2025","dataIv": "#getapp@TMD@2025"}},
@@ -121,6 +122,7 @@
     {"key": "趣盘","name": "趣盘｜搜索","type": 3,"api": "csp_QuPanSo","timeout": 60},
     {"key": "AList","name": "AList｜合集","type": 3,"api": "csp_Alist","searchable": 1,"filterable": 1,"changeable": 0,"style": {"type": "list"},"ext": "./json/alist.json"},
     {"key": "88看球","name": "88｜看球","type": 3,"api": "csp_Kanqiu","gridview": 3,"style": {"type": "list"}},
+    {"key": "919体育","name": "919｜体育","type": 3,"api": "csp_919Tiyu","style": {"type": "list"}},
     {"key": "爱听音乐","name": "爱听｜音乐","type": 3,"api": "./py/爱听音乐.py"},
     {"key": "六月听书","name": "六月｜听书","type": 3,"api": "csp_TingBook","style": {"type": "list"}},
     {"key": "呦呦DJ","name": "呦呦｜DJ","type": 3,"api": "csp_Djuu","style": {"type": "list"}},
